@@ -1,0 +1,5 @@
+return {
+  {
+    "voidekh/kyotonight.vim",
+  },
+}
