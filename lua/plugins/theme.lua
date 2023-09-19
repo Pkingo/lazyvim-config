@@ -9,4 +9,16 @@ return {
       },
     },
   },
+  {
+    "yeddaif/neovim-purple",
+    opts = function()
+      vim.g.nobackground = 1
+    end,
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "neovim_purple",
+    },
+  },
 }

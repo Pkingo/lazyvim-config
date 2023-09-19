@@ -12,6 +12,9 @@ return {
     config = function()
       require("telescope").load_extension("live_grep_args")
     end,
+    opts = {
+      file_ignore_patterns = { "**/messenger/app.js" },
+    },
     keys = {
       {
         "<leader>fg",
