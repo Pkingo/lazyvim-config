@@ -4,6 +4,7 @@ return {
     optional = true,
     dependencies = {
       "nvim-neotest/neotest-go",
+      "leoluz/nvim-dap-go",
     },
     opts = {
       adapters = {

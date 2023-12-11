@@ -11,6 +11,7 @@ return {
     },
     config = function()
       require("telescope").load_extension("live_grep_args")
+      require("telescope").load_extension("projects")
     end,
     opts = {
       file_ignore_patterns = { "**/messenger/app.js" },
