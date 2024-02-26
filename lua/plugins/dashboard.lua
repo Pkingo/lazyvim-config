@@ -9,6 +9,7 @@ return {
           week_header = {
             enable = true,
           },
+          packages = { enable = true },
           shortcut = {
             { desc = "󰊳 Update", group = "@property", action = "Lazy update", key = "u" },
             {
